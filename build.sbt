@@ -1,5 +1,5 @@
 name := "scalaz-scalatest"
-version := "0.3.0"
+version := "0.4.0-SNAPSHOT"
 organization := "org.typelevel"
 
 scalaVersion := "2.11.7"
@@ -11,7 +11,7 @@ scalacOptions ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "org.scalaz" %% "scalaz-core" % "7.1.4",
+  "org.scalaz" %% "scalaz-core" % "7.2.0",
   "org.scalatest" %% "scalatest" % "2.2.4"
 )
 
